@@ -57,3 +57,5 @@ insert into SPJ(sn, pn, jn, qty) values('S3', 'P2', 'J3', 200);
 insert into SPJ(sn, pn, jn, qty) values('S4', 'P2', 'J3', 200);
 insert into SPJ(sn, pn, jn, qty) values('S4', 'P4', 'J3', 300);
 insert into SPJ(sn, pn, jn, qty) values('S4', 'P5', 'J3', 400);
+insert into SPJ(pn, sn, jn, qty) values('p1', 's1', 'j2', 300);
+
