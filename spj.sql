@@ -45,15 +45,15 @@ insert into J(jn, jname, budget, city) values('J3', 'bulding C', 2900, 'Paris' )
 insert into J(jn, jname, budget, city) values('J4', 'store A', 1400, 'Oslo'  );
 insert into J(jn, jname, budget, city) values('J5', 'store B', 1300, 'London');
 
-insert into SPJ(sn, pn, jn, qty) values('S1', 'P1','j1', 300);
-insert into SPJ(sn, pn, jn, qty) values('S1', 'P2', 'j1', 200);
-insert into SPJ(sn, pn, jn, qty) values('S1', 'P3', 'j1', 400);
-insert into SPJ(sn, pn, jn, qty) values('S1', 'P4', 'j2', 200);
-insert into SPJ(sn, pn, jn, qty) values('S1', 'P5', 'j2', 100);
-insert into SPJ(sn, pn, jn, qty) values('S1', 'P6', 'j2', 100);
-insert into SPJ(sn, pn, jn, qty) values('S2', 'P1', 'j3', 300);
-insert into SPJ(sn, pn, jn, qty) values('S2', 'P2', 'j3', 400);
-insert into SPJ(sn, pn, jn, qty) values('S3', 'P2', 'j3', 200);
-insert into SPJ(sn, pn, jn, qty) values('S4', 'P2', 'j3', 200);
-insert into SPJ(sn, pn, jn, qty) values('S4', 'P4', 'j3', 300);
-insert into SPJ(sn, pn, jn, qty) values('S4', 'P5', 'j3', 400);
+insert into SPJ(sn, pn, jn, qty) values('S1', 'P1','J1', 300);
+insert into SPJ(sn, pn, jn, qty) values('S1', 'P2', 'J1', 200);
+insert into SPJ(sn, pn, jn, qty) values('S1', 'P3', 'J1', 400);
+insert into SPJ(sn, pn, jn, qty) values('S1', 'P4', 'J2', 200);
+insert into SPJ(sn, pn, jn, qty) values('S1', 'P5', 'J2', 100);
+insert into SPJ(sn, pn, jn, qty) values('S1', 'P6', 'J2', 100);
+insert into SPJ(sn, pn, jn, qty) values('S2', 'P1', 'J3', 300);
+insert into SPJ(sn, pn, jn, qty) values('S2', 'P2', 'J3', 400);
+insert into SPJ(sn, pn, jn, qty) values('S3', 'P2', 'J3', 200);
+insert into SPJ(sn, pn, jn, qty) values('S4', 'P2', 'J3', 200);
+insert into SPJ(sn, pn, jn, qty) values('S4', 'P4', 'J3', 300);
+insert into SPJ(sn, pn, jn, qty) values('S4', 'P5', 'J3', 400);
