@@ -44,10 +44,11 @@ def testDelete(c):
 def testFor(c):
   for row in c.execute('SELECT * FROM stocks ORDER BY price'):
     print(row)
+
 conn = sqlite3.connect('example.db')
 c = conn.cursor()
-#createTable(c)
+createTable(c)
 #test2(c)
 #testDelete(c)
-testFor(c)
+#testFor(c)
 conn.commit()
