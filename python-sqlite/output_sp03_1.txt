@@ -1,0 +1,13 @@
+python-sqlite$ python3 sp03.py 
+python-sqlite$ ls -al
+total 64
+drwxrwxr-x 2 ahmad ahmad  4096 Dec 13 18:02 .
+drwxrwxr-x 5 ahmad ahmad  4096 Dec 13 17:41 ..
+-rw-r--r-- 1 ahmad ahmad 12288 Dec 13 18:02 example.db
+-rw-rw-r-- 1 ahmad ahmad   448 Dec 13 17:56 output_sp02.txt
+-rw-rw-r-- 1 ahmad ahmad   179 May 11  2020 sp01.py
+-rw-r--r-- 1 ahmad ahmad   287 May 16  2020 sp02.py
+-rw-r--r-- 1 ahmad ahmad  1514 Dec 13 18:01 sp03.py
+-rw-r--r-- 1 ahmad ahmad 28672 May 11  2020 sp.sqlite
+python-sqlite$ 
+
