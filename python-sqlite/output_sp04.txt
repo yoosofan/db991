@@ -1,0 +1,3 @@
+python-sqlite$ python3 sp04.py 
+None
+python-sqlite$ 
