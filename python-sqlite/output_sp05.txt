@@ -1,0 +1,3 @@
+python-sqlite$ python3 sp05.py 
+('2006-01-05', 'BUY', 'RHAT', 100, 35.14)
+python-sqlite$ 
