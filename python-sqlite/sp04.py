@@ -23,7 +23,7 @@ def test2(c):
   
   # Do this instead
   t = ('RAT',)
-  c.execute('SELECT * FROM stocks WHERE symbol=?', t)
+  c.execute('SELECT * FROM stocks WHERE symbol=? ORDER By date1', t)
   print(c.fetchone())
   
   # Larger example that inserts many records at a time
