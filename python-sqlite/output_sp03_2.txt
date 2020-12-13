@@ -1,0 +1,10 @@
+db991$ cd python-sqlite/
+python-sqlite$ python3 sp03.py 
+Traceback (most recent call last):
+  File "sp03.py", line 50, in <module>
+    createTable(c)
+  File "sp03.py", line 13, in createTable
+    c.execute('''INSERT INTO stocks 
+sqlite3.IntegrityError: UNIQUE constraint failed: stocks.date1
+python-sqlite$ 
+
